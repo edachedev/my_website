@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edache Orders - Home</title>
+</head>
+<body>
+    <h1>Welcome to Edache Orders</h1>
+    <h2>Available Items</h2>
+    <ul>
+        {% for item in items %}
+        <li>
+            {{ item.name }} - ₦{{ item.price }}
+            <a href="{{ url_for('add_to_cart', item_id=item.id) }}">Add to Cart</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('cart_page') }}">View Cart</a>
+</body>
+</html>

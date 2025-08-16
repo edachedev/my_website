@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4faff;
+    color: #333;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+    padding: 10px;
+    background: #e9f3ff;
+    border-radius: 5px;
+}
+
+a, button {
+    background: #0056b3;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+a:hover, button:hover {
+    background: #003d80;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 250px;
+}
